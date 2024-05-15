@@ -131,7 +131,7 @@ std::vector <cv::Mat> remove_red_eyes(std::vector <cv::Mat> images) {
 }
 
 int main() {
-	std::vector <cv::Mat> images = input("images/names.txt");
+	std::vector <cv::Mat> images = input("images/.names.txt");
 
 	cv::waitKey(0);
 	cv::destroyAllWindows();

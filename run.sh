@@ -3,4 +3,6 @@ if [ "`diff -Z -B main.cpp .temp`" != "" ]; then
     cat main.cpp > .temp
 fi
 
+ls images > images/.names.txt
+
 ./build/opencv-test
